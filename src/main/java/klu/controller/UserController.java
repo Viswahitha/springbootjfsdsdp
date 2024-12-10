@@ -21,7 +21,8 @@ import klu.model.Signup;
 import klu.model.User;
 import klu.model.UserManager;
 import klu.model.meals;
-
+import org.springframework.web.bind.annotation.CrossOrigin;
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/user")
 public class UserController {
