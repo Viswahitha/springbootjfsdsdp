@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import klu.model.Email;
 import klu.model.Emailmanager;
-
+import org.springframework.web.bind.annotation.CrossOrigin;
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/email")
 public class EmailController {
