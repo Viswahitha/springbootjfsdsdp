@@ -457,7 +457,7 @@ let dietData = []; // Store fetched data here
     }
 
 function fetchdietplan(){
-	const url="http://localhost:8080/user/readdietplan";
+	const url="https://springbootjfsdsdps17-5-production.up.railway.app/user/readdietplan";
 	callApi("GET",url,"",function(response){
 		dietdata=response;
 		rendercards();
