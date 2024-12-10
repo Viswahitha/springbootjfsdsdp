@@ -325,7 +325,7 @@ window.onload = function() {
 
 function fetchdiet() {
 	
-    const url = "http://localhost:8080/admin/readdietplan"; // Adjust API URL as needed
+    const url = "http://springbootjfsdsdps17-5-production.up.railway.app/admin/readdietplan"; // Adjust API URL as needed
 
     // Using callApi function to make the GET request
     callApi("GET", url, "", function(response) {
@@ -362,7 +362,7 @@ function renderTable() {
 
 }
 function del(dietId){
-	var url="http://localhost:8080/admin/deletediet?id=" +dietId;
+	var url="http://springbootjfsdsdps17-5-production.up.railway.app/admin/deletediet?id=" +dietId;
 	console.log(url);
 		callApi("DELETE",url, "",deleteHandler);
 	
