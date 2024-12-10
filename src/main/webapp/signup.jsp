@@ -219,7 +219,7 @@ function signup(){
 		email: email.value,
 		password: password.value
 	});
-	var url="http://localhost:8080/user/save"
+	var url="https://springbootjfsdsdps17-5-production.up.railway.app/user/save"
 	callApi("POST",url,data,saveHandler);
 	return;
 	}
