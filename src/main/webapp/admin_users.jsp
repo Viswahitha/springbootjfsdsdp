@@ -407,7 +407,7 @@
 
     function del(useremail){
     	console.log("in process");
-		var url="http://localhost:8080/admin/deleteuser?email=" +useremail;
+		var url="https://springbootjfsdsdps17-5-production.up.railway.app/admin/deleteuser?email=" +useremail;
 			callApi("DELETE",url, "",deleteHandler);
 		
 	}
