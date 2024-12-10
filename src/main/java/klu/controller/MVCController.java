@@ -17,7 +17,8 @@ import klu.model.Dietplan;
 import klu.model.UserManager;
 import klu.model.meals;
 
-
+import org.springframework.web.bind.annotation.CrossOrigin;
+@CrossOrigin(origins = "*")
 @Controller
 @RequestMapping("/")
 public class MVCController {
