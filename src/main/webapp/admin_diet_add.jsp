@@ -428,7 +428,7 @@ function save() {
         calcium: calcium
     });
     console.log(data);
-	var url="http://localhost:8080/admin/savedietplan"
+	var url="https://springbootjfsdsdps17-5-production.up.railway.app/admin/savedietplan"
 	callApi("POST",url,data,savehandler);
 }
 function savehandler(response){
