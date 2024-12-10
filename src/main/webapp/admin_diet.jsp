@@ -555,7 +555,7 @@ function saveDietChanges() {
     const jsonData = JSON.stringify(dietDetails);
     console.log("Updated Diet Plan:", dietDetails);
     console.log(jsonData)
-	var url="http://localhost:8080/admin/updatedietplan"
+	var url="https://springbootjfsdsdps17-5-production.up.railway.app/admin/updatedietplan"
 	callApi("POST",url,jsonData,updateHandler);
     // Optional: After saving the changes, close the modal
     closeModal();
