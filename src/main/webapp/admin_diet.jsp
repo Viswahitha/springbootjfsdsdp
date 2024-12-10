@@ -325,7 +325,7 @@ window.onload = function() {
 
 function fetchdiet() {
 	
-    const url = "http://springbootjfsdsdps17-5-production.up.railway.app/admin/readdietplan"; // Adjust API URL as needed
+    const url = "https://springbootjfsdsdps17-5-production.up.railway.app/admin/readdietplan"; // Adjust API URL as needed
 
     // Using callApi function to make the GET request
     callApi("GET", url, "", function(response) {
