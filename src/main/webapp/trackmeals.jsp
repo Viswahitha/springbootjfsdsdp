@@ -314,7 +314,7 @@ while (request.getAttribute("meal" + mealCount) != null) {
         };
 
         // Use Axios to make a POST request
-        axios.post("http://localhost:8080/user/addmeals", mealData)
+        axios.post("https://springbootjfsdsdps17-5-production.up.railway.app/user/addmeals", mealData)
             .then(response => {
                 alert("Meal logged successfully!");
                 location.reload(); // Reload the page to reflect changes
