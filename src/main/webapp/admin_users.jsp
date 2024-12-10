@@ -293,7 +293,7 @@
 
     // Function to fetch user data from API
     function fetchUsers() {
-        const url = "http://localhost:8080/admin/readusers"; // Adjust API URL as needed
+        const url = "http://springbootjfsdsdps17-5-production.up.railway.app/admin/readusers"; // Adjust API URL as needed
 
         // Using callApi function to make the GET request
         callApi("GET", url, "", function(response) {
