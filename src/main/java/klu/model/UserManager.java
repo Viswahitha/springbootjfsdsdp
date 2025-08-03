@@ -11,10 +11,10 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 import klu.controller.EmailController;
-import klu.resources.AdminRepository;
-import klu.resources.DietRepository;
-import klu.resources.Mealrepository;
-import klu.resources.UserRepository;
+import klu.repository.AdminRepository;
+import klu.repository.DietRepository;
+import klu.repository.Mealrepository;
+import klu.repository.UserRepository;
 
 @Service
 public class UserManager {

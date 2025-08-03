@@ -1,4 +1,4 @@
-package klu.resources;
+package klu.repository;
 
 import java.util.List;
 
